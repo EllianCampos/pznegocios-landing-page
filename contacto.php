@@ -65,8 +65,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $query->bindParam(":info", $info);
   $query->execute();
 
-  header("Location: gracias.php");
-  return;
+  echo '<script>window.location.href = "gracias.php";</script>';
+  // header("Location: gracias.php");
+  // return;
 }
 
 ?>
