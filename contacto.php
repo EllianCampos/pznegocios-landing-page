@@ -19,27 +19,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $pregunta11 = $_POST["pregunta11"];
 
   $info = "
-    Nombre: $pregunta1 
-    <br>  
-    Correo: $pregunta2 
-    <br> 
-    Teléfono: $pregunta3 
-    <br>
-    Medio preferido: $pregunta4 
-    <hr>
-    pregunta5: $pregunta5 
-    <br>
-    pregunta6: $pregunta6 
-    <br>
-    pregunta7: $pregunta7 
-    <br>
-    pregunta8: $pregunta8 
-    <br>
-    pregunta9: $pregunta9 
-    <br>
-    pregunta10: $pregunta10 
-    <br>
-    pregunta11: $pregunta11
+    <b>Nombre:</b> $pregunta1 
+    <br><br>  
+    <b>Correo:</b> $pregunta2 
+    <br><br> 
+    <b>Teléfono:</b> $pregunta3 
+    <br><br>
+    <b>Medio preferido:</b> $pregunta4 
+    <hr><br>
+    <b>pregunta5:</b> $pregunta5 
+    <br><br>
+    <b>pregunta6:</b> $pregunta6 
+    <br><br>
+    <b>pregunta7:</b> $pregunta7 
+    <br><br>
+    <b>pregunta8:</b> $pregunta8 
+    <br><br>
+    <b>pregunta9:</b> $pregunta9 
+    <br><br>
+    <b>pregunta10:</b> $pregunta10 
+    <br><br>
+    <b>pregunta11:</b> $pregunta11
   ";
 
   // Enviar correo
@@ -66,8 +66,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $query->execute();
 
   echo '<script>window.location.href = "gracias.php";</script>';
-  // header("Location: gracias.php");
-  // return;
 }
 
 ?>
