@@ -1,0 +1,20 @@
+[
+  {
+    "nombre": "Gestión de ganado",
+    "descripcion": "Da mantenimiento a tu ganado y visualiza en cualquier momento el hitorial de cada uno",
+    "link": "",
+    "online": false
+  },
+  {
+    "nombre": "Registro estudiantil",
+    "descripcion": "Plataforma para el registro de estudiantes y sus calificaciones",
+    "link": "https://academic-records.vercel.app/",
+    "online": true
+  },
+  {
+    "nombre": "Gestión de citas",
+    "descripcion": "Encuentra locales de estilismo por el sector y agenda tu cita",
+    "link": "",
+    "online": false
+  }
+]
