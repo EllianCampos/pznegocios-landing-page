@@ -2,8 +2,8 @@
   {
     "nombre": "Gestión de ganado",
     "descripcion": "Da mantenimiento a tu ganado y visualiza en cualquier momento el hitorial de cada uno",
-    "link": "",
-    "online": false
+    "link": "https:fincas.pznegocios.com",
+    "online": true
   },
   {
     "nombre": "Registro estudiantil",
