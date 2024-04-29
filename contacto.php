@@ -84,50 +84,50 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <h2>Información del solicitante</h2>
     <div class="mt-3">
       <label for="pregunta1"><span class="fw-bold">Pregunta #1. </span>Nombre Completo</label>
-      <input type="text" name="pregunta1" id="pregunta1" class="form-control" required>
+      <input type="text" name="pregunta1" id="pregunta1" class="form-control mt-2" required>
     </div>
     <div class="mt-3">
       <label for="pregunta2"><span class="fw-bold">Pregunta #2. </span>Correo electrónico</label>
-      <input type="text" name="pregunta2" id="pregunta2" class="form-control" required>
+      <input type="text" name="pregunta2" id="pregunta2" class="form-control mt-2" required>
     </div>
     <div class="mt-3">
       <label for="pregunta3"><span class="fw-bold">Pregunta #3. </span>Teléfono</label>
-      <input type="text" name="pregunta3" id="pregunta3" class="form-control" required>
+      <input type="text" name="pregunta3" id="pregunta3" class="form-control mt-2" required>
     </div>
     <div class="mt-3">
       <label for="pregunta4"><span class="fw-bold">Pregunta #4. </span>Indica por cual medio prefieres que te contactemos</label>
-      <textarea name="pregunta4" id="pregunta4" rows="1" class="form-control" placeholder="Ej. Por WhatsApp y correo eletrónico"></textarea>
+      <textarea name="pregunta4" id="pregunta4" rows="1" class="form-control mt-2" placeholder="Ej. Por WhatsApp y correo eletrónico"></textarea>
     </div>
 
     <!-- Seccion 2 -->
     <h2 class=" text-center mt-5">Acerca de cuál es la necesidad del software</h2>
     <div class="mt-3">
       <label for="pregunta5"><span class="fw-bold">Pregunta #5. </span>¿Cuál es la actividad o actividades que realiza la empresa?</label>
-      <textarea name="pregunta5" id="pregunta5" rows="3" class="form-control" placeholder="Ej. Es un minisuper"></textarea>
+      <textarea name="pregunta5" id="pregunta5" rows="3" class="form-control mt-2" placeholder="Ej. Es un minisuper"></textarea>
     </div>
     <div class="mt-3">
       <label for="pregunta6"><span class="fw-bold">Pregunta #6. </span>Si lo cree conveniente indique como se llama la empresa</label>
-      <textarea name="pregunta6" id="pregunta6" rows="1" class="form-control" placeholder="Ej. Minisúper San Isidro"></textarea>
+      <textarea name="pregunta6" id="pregunta6" rows="1" class="form-control mt-2" placeholder="Ej. Minisúper San Isidro"></textarea>
     </div>
     <div class="mt-3">
       <label for="pregunta7"><span class="fw-bold">Pregunta #7. </span>¿Cuál es el propósito principal del software? </label>
-      <textarea name="pregunta7" id="pregunta7" rows="3" class="form-control" placeholder="Ej. Permitir la facturación de producto y generar reportes de ventas"></textarea>
+      <textarea name="pregunta7" id="pregunta7" rows="3" class="form-control mt-2" placeholder="Ej. Permitir la facturación de producto y generar reportes de ventas"></textarea>
     </div>
     <div class="mt-3">
       <label for="pregunta8"><span class="fw-bold">Pregunta #8.</span> ¿Por favor indique si hay algún proceso en específico que espera que el software agilice o simplifique? </label>
-      <textarea name="pregunta8" id="pregunta8" rows="3" class="form-control" placeholder="Ej. Llevar un control de las ventas y el inventario"></textarea>
+      <textarea name="pregunta8" id="pregunta8" rows="3" class="form-control mt-2" placeholder="Ej. Llevar un control de las ventas y el inventario"></textarea>
     </div>
     <div class="mt-3">
       <label for="pregunta9"><span class="fw-bold">Pregunta #9. </span> Si ya tiene una idea de lo que desea en este espacio puede especificarlo</label>
-      <textarea name="pregunta9" id="pregunta9" rows="3" class="form-control" placeholder="Ej. Quiero un sistema de facturación que permita tener varias cajas cobradoras y me permita a mi como dueño acceder a un reporte completo de las ventas"></textarea>
+      <textarea name="pregunta9" id="pregunta9" rows="3" class="form-control mt-2" placeholder="Ej. Quiero un sistema de facturación que permita tener varias cajas cobradoras y me permita a mi como dueño acceder a un reporte completo de las ventas"></textarea>
     </div>
     <div class="mt-3">
       <label for="pregunta10"><span class="fw-bold">Pregunta #10. </span>¿El software será utilizado en una computadora en específico o se espera que varios usuarios tengan acceso al mismo?</label>
-      <textarea name="pregunta10" id="pregunta10" rows="3" class="form-control" placeholder="Ej. Debe ser accedido por varias personas"></textarea>
+      <textarea name="pregunta10" id="pregunta10" rows="3" class="form-control mt-2" placeholder="Ej. Debe ser accedido por varias personas"></textarea>
     </div>
     <div class="mt-3">
       <label for="pregunta11"><span class="fw-bold">Pregunta #11. </span>¿Hay algo más que quiera que sepamos sobre su proyecto?</label>
-      <textarea name="pregunta11" id="pregunta11" rows="3" class="form-control"></textarea>
+      <textarea name="pregunta11" id="pregunta11" rows="3" class="form-control mt-2"></textarea>
     </div>
 
     <!-- Btn Enviar -->
